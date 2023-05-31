@@ -521,3 +521,258 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-\[225px\] {
+  margin-top: 225px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[680px\] {
+  height: 680px;
+}
+
+.h-\[831px\] {
+  height: 831px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[1320px\] {
+  width: 1320px;
+}
+
+.w-\[470px\] {
+  width: 470px;
+}
+
+.w-\[528px\] {
+  width: 528px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-\[125px\] {
+  gap: 125px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-\[\#475F45\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(71 95 69 / var(--tw-border-opacity));
+}
+
+.bg-\[\#475F45\;\] {
+  background-color: #475F45;;
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[57px\] {
+  font-size: 57px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-\[14px\] {
+  line-height: 14px;
+}
+
+.leading-\[38px\] {
+  line-height: 38px;
+}
+
+.leading-\[63px\] {
+  line-height: 63px;
+}
+
+.text-\[\#414840\;\] {
+  color: #414840;;
+}
+
+.text-\[\#414840\] {
+  --tw-text-opacity: 1;
+  color: rgb(65 72 64 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.list,
+.buttons {
+  font-family: "Roboto";
+}
+
+.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: 10px 30px;
+    width: 375px;
+  }
+
+  .nav {
+    width: auto;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+
+  .img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    height: 1313px;
+    gap: 75px;
+  }
+
+  .left {
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+
+  .p1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .p2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hover\:bg-\[\#475F45\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 95 69 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#475F45\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(71 95 69 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}

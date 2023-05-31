@@ -4,11 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter file</title>
-
-    <!-- js -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <!-- build css -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>starter</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+
+  <body class="font-serif font-family: 'Roboto', sans-serif">
+    <header class="w-[100%]">
+      <div class="contaienr w-[1320px] mx-auto px-[100px] bg-slate-200">
+        <nav class="nav flex justify-between items-center pt-5">
+          <a href="#" class="logo"
+            ><img class="logo-img" src="./assets/icons/logo.svg" alt=""
+          /></a>
+          <img class="menu" src="./assets/icons/menu.svg" alt="" />
+          <ul
+            class="list text-[#414840] flex justify-evenly items-center font-bold uppercase leading-[14px] text-[14px] gap-8"
+          >
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Visit</a></li>
+            <li class="item"><a href="#">Exhibitions</a></li>
+            <li class="item"><a href="#">Programs & Events</a></li>
+            <li class="item"><a href="#">Store</a></li>
+            <button
+              class="btn px-[30px] py-[15px] border border-[#475F45] border-solid"
+            >
+              Membership
+            </button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="contaienr w-[1320px] flex mx-auto px-[100px] bg-slate-200">
+      <div class="hero flex gap-[125px] w-[100%] h-[831px] mt-20">
+        <div class="left w-[528px] leading-[63px] mt-[225px]">
+          <p class="p1 text-[57px] font-normal">A beatiful adventure awaits</p>
+          <p class="p2 leading-[38px] font-normal text-[#414840;] text-[25px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+            facilisis nunc
+          </p>
+          <div class="buttons mt-8 font-bold">
+            <button
+              class="btn1 px-[40px] bg-[#475F45;] text-white border border-[#475F45] uppercase border-solid hover:bg-white hover:text-[#475F45]"
+            >
+              Buy Tickets
+            </button>
+            <button
+              class="btn2 px-[40px] ml-5 uppercase border border-[#475F45] border-solid hover:bg-[#475F45] hover:text-white"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <img
+          class="img w-[470px] h-[680px]"
+          src="./assets/images/hero-image.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
 </html>

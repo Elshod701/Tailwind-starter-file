@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list,
+.buttons {
+  font-family: "Roboto";
+}
+
+.menu {
+  display: none;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: 10px 30px;
+    width: 375px;
+
+  }
+  .nav {
+    width: auto;
+  }
+  .list {
+    display: none;
+  }
+  .menu {
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+
+  .img {
+    display: block;
+    margin: 0 auto;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    height: 1313px;
+    gap: 75px;
+  }
+
+  .left {
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+  .p1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .p2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
